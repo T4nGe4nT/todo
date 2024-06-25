@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List Application</title>
+    <title>Get It Done!!!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap" rel="stylesheet">
+    <!--End Fonts-->
+
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">To-Do List</h1>
+        <h1 class="mb-4 lilita-one-regular">Things To Do</h1>
+        <hr>
         <div class="input-group mb-3">
             <input type="text" id="taskInput" class="form-control" placeholder="Enter a new task">
             <div class="input-group-append">
-                <button class="btn btn-primary" type="button" onclick="addTask()">Add Task</button>
+                <button class="btn btn-secondary libre-franklin" type="button" onclick="addTask()">Add Task</button>
             </div>
         </div>
-        <ul id="taskList" class="list-group">
+        <ul id="taskList" class="list-group libre-franklin">
 
         </ul>
+    </div>
+    <br>
+    <div class="container mt-5 aboutc">
+        <h1 class="h1c lilita-one-regular">About</h1>
+        <hr>
+        <p class="libre-franklin">
+            <em>I made this little Web Application for my lovley wife Emily.
+            Hopefully this can help her day to day routine.
+            <br>
+            <br> <!-- Yes i know this is to many <br> -->
+            ~Your loving husband Nich; </em>
+        </p>
     </div>
 
 
